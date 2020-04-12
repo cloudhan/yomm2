@@ -14,17 +14,14 @@
 #include <utility>
 #include <vector>
 
-#include <boost/preprocessor/arithmetic/sub.hpp>
 #include <boost/preprocessor/facilities/overload.hpp>
 #include <boost/preprocessor/punctuation/comma_if.hpp>
 #include <boost/preprocessor/repetition/repeat.hpp>
 #include <boost/preprocessor/stringize.hpp>
 #include <boost/preprocessor/tuple/elem.hpp>
-#include <boost/preprocessor/tuple/push_front.hpp>
-#include <boost/preprocessor/tuple/rem.hpp>
 #include <boost/preprocessor/tuple/size.hpp>
-#include <boost/preprocessor/variadic/to_tuple.hpp>
 #include <boost/preprocessor/variadic/elem.hpp>
+#include <boost/preprocessor/variadic/to_tuple.hpp>
 
 #include <boost/type_traits/is_virtual_base_of.hpp>
 
